@@ -473,3 +473,15 @@ With the release of PyTorch `0.4`, wrapping tensors as `Variable`s is no longer 
 - By default, when you create a tensor from scratch, `requires_grad` will be set to `False`.
 - When a tensor is created from or modified using another tensor that allows gradients, then `requires_grad` will be set to `True`.
 - Tensors which are parameters of `torch.nn` layers will already have `requires_grad` set to `True`.
+
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+</tr>
